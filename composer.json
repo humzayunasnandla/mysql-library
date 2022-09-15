@@ -1,0 +1,22 @@
+{
+    "name": "malik_humza_nandla/mysql-library",
+    "description": "A small library to implement mysql functions after php 5.6 so you can use this library to migrate your project to a newer php version without limitation of mysql deprecation",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "MalikHumzaNandla\\MysqlLibrary\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Malik Humza Yunas"
+        }
+    ],
+    "require": {
+        "ext-mysqli": "*"
+    },
+    "version": "1.0.0"
+}
