@@ -54,6 +54,10 @@ function mysql_affected_rows()
     return mysqli_affected_rows($cn);
 }
 
+function mysql_num_fields($result){
+    return mysqli_num_fields($result);
+}
+
 function mysql_num_rows($result)
 {
     if ($result == null) {
